@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", Courier, monospace;
+  font-size: 18px;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  height: 520px;
+  width: 300px;
+  display: flex;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card-img {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+}
+
+.card-img .image {
+  background-image: url(images/image-equilibrium.jpg);
+  background-size: cover;
+  width: inherit;
+  height: inherit;
+  font-size: 0;
+  border-radius: 10px;
+}
+
+.card-details {
+  margin: 0 25px;
+}
+
+.card-details h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 7px;
+}
+
+.card-details .caption,
+.card-details .timeline,
+.card-details .profile {
+  color: hsl(215, 51%, 70%);
+}
+
+.card-details .caption {
+  font-size: 15px;
+}
+
+.card-details > div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+
+.card-details .balance {
+  display: flex;
+  align-items: center;
+}
+
+.card-details .balance p {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-details .balance img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.card-details .timeline {
+  display: flex;
+  align-items: center;
+}
+
+.card-details .timeline img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+hr.solid {
+  border: 0;
+  border-top: 1px solid white;
+  opacity: 0.3;
+  margin-top: -5px;
+}
+
+.card-details .profile {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.card-details .profile img {
+  width: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.card-details .profile p {
+  margin-left: 15px;
+}
+
+.card-details .profile span {
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
